@@ -1,8 +1,16 @@
 {
-    "name": "com.olicom.push",
-    "version": "1.0.0",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "displayName": "Olicom_push"
+  "name": "com.olicom.push",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "displayName": "Olicom_push",
+  "cordova": {
+    "plugins": {
+      "phonegap-plugin-push": {}
+    }
+  },
+  "dependencies": {
+    "phonegap-plugin-push": "^2.0.0"
+  }
 }
